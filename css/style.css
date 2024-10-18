@@ -1,0 +1,51 @@
+
+/* This is a common style document */
+
+
+/* resets styles */
+
+*{
+	
+	box-sizing: border-box; 			/* include the padding and border in an element's total width and height */
+	
+	max-width: 100%;					/* prevents the value of the width property from becoming larger than max-width */
+	
+	margin: 0;							/* zero space around elements, outside of any defined borders. */
+	
+	padding: 0;							/* zero space around element`s content, inside of any defined borders. */
+	
+	line-height: 1.6;					/* specifies the height of a line (string) */
+	
+	overflow-wrap: break-word; 			/* allow to break lines with long words, if they overflow the container */
+	
+	border: 0;							/* defines no border */
+	
+	font-family: Arial, Helvetica, sans-serif;
+	
+	
+	
+}
+
+img, picture, video, canvas, svg, textarea, object, map{
+	
+	display: block; 					/* elements starts on a new line and takes up the full width available */
+	
+	
+	
+}
+
+ol,ul{
+	
+    list-style:none;					/* defines no list-item marker */
+	
+	
+	
+}
+
+table{
+	
+    border-collapse: collapse;			/* table borders should collapse into a single border instead of be separated as in standard HTML */
+	
+	
+	
+}
